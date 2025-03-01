@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.nevbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nev-logo {
+    height: 50px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url(amazon-logo.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border:hover {
+    border: 1.5px, solid white;
+    border-radius: 2px;
+}
+
+/* box 2 */
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
+
+
+.add-1st {
+    font-size: 0.8rem;
+    margin-left: 16px;
+}
+
+.add-2nd {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/* box 3 */
+.nev-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(236, 170, 49);
+    height: 40px;
+    width: 680px;
+    border-radius: 3px;
+    margin-left: 6px;
+}
+
+.nev-search:hover {
+    border: 2px, solid, rgb(236, 170, 49);
+}
+
+.select-search {
+    background-color: #f3f3f3;
+    width: 40px;
+    align-items: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* box 4 */
+span {
+    font-size: 0.8rem;
+}
+
+.signin {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* box 5 */
+.order {
+    font-weight: 600;
+}
+
+/* box 6 */
+.nev-cart i {
+    font-size: 28px;
+}
+
+.nev-cart {
+    font-weight: 600;
+}
+
+/* penal */
+.penal {
+    display: flex;
+    color: white;
+    height: 35px;
+    background-color: #253344;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panal-all {
+    font-weight: 600;
+}
+
+.panal-ops {
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panal-ops p {
+    margin-left: 15px;
+}
+
+.panal-deals {
+    font-weight: 500;
+}
+
+/* hero-section */
+.hero-section {
+    height: 300px;
+    background-size: cover;
+    background-image: url(Shop-Book.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-message {
+    color: black;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.hero-message a {
+    color: #007185;
+}
+
+/* shop-section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b2d6d5;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.card-item {
+    text-align: center;
+}
+
+.card-image {
+    width: 120px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.see-more {
+    display: inline-block;
+    margin-top: 8px;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.see-more:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.cpu {
+    height: 236px;
+    width: 288px;
+    background-image: url(Gaming_store.jpg);
+    background-size: contain;
+}
+
+.shop-section1 {
+    background-color: #b2d6d5;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+}
+
+.shop-section2 {
+    width: 95%;
+    justify-content: center;
+    text-align: left;
+    background-color: white;
+}
+
+.shop {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-items {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top-picks {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 9px;
+}
+
+/* section 3 */
+.shop-section3 {
+    background-color: #b2d6d5;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.b-card {
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.element-image {
+    width: 120;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.see {
+    margin-top: 8px;
+    color: #0073e6;
+    font-weight: bold;
+    /* display: inline-block; */
+    text-decoration: none;
+}
+
+.see:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.elements {
+    text-align: center;
+}
+
+.foot {
+    margin-top: 15px;
+}
+
+.foot-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(49, 68, 91);
+    color: white;
+    font-size: 1rem;
+}
+
+.foot-2 {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(35, 47, 62);
+    color: white;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.foot-logo {
+    height: 60px;
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px, solid, white;
+}
+
+.f-logo {
+    height: 50px;
+    width: 100px;
+    background-image: url(amazon-logo.jpg);
+    background-size: cover;
+}
+
+.copyright {
+    height: 80px;
+    background-color: #131a22;
+    font-size: 12px;
+}
+
+.c-right  {
+    text-align: center;
+    font-size: 0.7rem;
+    text-decoration: none;
+    padding-top: 20px;
+    color: white;
+    margin-right: 5px;
+}
+.c-right a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.c-right2 {
+    color: #dddddd;
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
